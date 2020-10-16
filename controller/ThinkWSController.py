@@ -15,9 +15,9 @@ class ThinkWSController(tornado.websocket.WebSocketHandler):
     g_setConn = set()
     g_dictConn = {}
 
-    def get_compression_options(self):
-        # Non-None enables compression with default options.
-        return {}
+    # def get_compression_options(self):
+    #     # Non-None enables compression with default options.
+    #     return {}
 
     def open(self):
         ThinkWSController.g_setConn.add(self)
