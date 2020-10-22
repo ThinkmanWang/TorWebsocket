@@ -9,12 +9,57 @@ function test1()
     return a
 end
 
-print("Hello World")
-print("fcc123" .. 1)
-print(157 .. 428)
-print(#"Hello World!")
+--print("Hello World")
+--print("fcc123" .. 1)
+--print(157 .. 428)
+--print(#"Hello World!")
+--
+--szStr = "Hello World"
+--print(#szStr)
+--
+--print(test1())
 
-szStr = "Hello World"
-print(#szStr)
 
-print(test1())
+print("aaa")
+test1()
+
+
+
+
+function test1() local a = 1 return a end print("Hello World") print("fcc123" .. 1) print(157 .. 428) print(#"Hello World!") szStr = "Hello World" print(#szStr) print(test1())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+print("Hello World!")  print("Hello World!")print("Hello World!") 123 print("Hello World!")print("Hello World!")print("Hello World!")print("Hello World!")print("Hello World!")print("Hello World!")
