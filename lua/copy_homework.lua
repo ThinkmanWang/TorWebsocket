@@ -26,7 +26,7 @@ end
 
 function copy10()
     for x = 1, 10, 1 do
-        print("抄作业")
+        print("抄作业第" .. x .. "遍")
     end
 end
 
@@ -41,4 +41,6 @@ function copyUntilCanRepeat()
     print("终于背出来了, 啦啦啦")
 end
 
+copy10()
+print("===============华丽的分割线===============")
 copyUntilCanRepeat()
